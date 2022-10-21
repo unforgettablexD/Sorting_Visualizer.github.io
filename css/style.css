@@ -1,19 +1,19 @@
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    *****************
-*/
+
 * {
+  
   margin: 0px;
   padding: 0px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: large;
+  font-size: small;
   font-weight: bold;
   text-transform: uppercase;
 }
-
+#body{
+    height: 100%;
+    width: 100%;
+}
 nav {
-  background-color: #3b3a3a;
+  background-color: #000000;
   color: white;
   display: -ms-grid;
   display: grid;
@@ -55,6 +55,7 @@ nav .array-inputs #a_generate:hover {
 }
 
 nav .header_right {
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,7 +67,7 @@ nav .header_right {
 
 nav .header_right .nav-heading {
   display: inline-block;
-  font-size: xxx-large;
+  font-size: 4rem;
   padding: 3% 0%;
 }
 
@@ -85,7 +86,7 @@ nav .header_right .algos button {
   color: white;
   outline: none;
   padding: 5% 0%;
-  font-size: x-large;
+  font-size: 1rem;
 }
 
 nav .header_right .algos button:hover {
@@ -170,25 +171,27 @@ section #Info_Cont2 h3 {
   display: none;
 }
 
-/*
-@media (max-width: 480px)//Mobiles
+
+@media (max-width: 480px) /*Mobiles*/
 {
-    
+  html {
+    font-size: 30%;
+  } 
 }
 
-@media (min-width: 481px) and (max-width: 1250px)//Tablets
+@media (min-width: 481px) and (max-width: 1250px) /*Tablets*/
 {
-
+  html {
+    font-size: 50%;
+  }
 }
 
-@media (min-width: 1251px)//Laptops and up
+@media (min-width: 1251px) /*/Laptops and up */
 {
-
+  html {
+    font-size: 90%;
+  }
 }
-*/
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    *****************
-*/
+
+
 /*# sourceMappingURL=style.css.map */
